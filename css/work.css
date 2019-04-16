@@ -1,0 +1,119 @@
+body {
+  background-color: #191919;
+}
+
+h6 {
+  color: white;
+  font-family: helvetica;
+  font-size: 7px;
+  margin-top: 200px;
+  padding: 10px;
+  height: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  background-color: firebrick;
+}
+
+h2 {
+  background-color: white;
+  color: black;
+  font-family: Helvetica;
+  font-variant: small-caps;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+  padding: 0px;
+}
+
+h3 {
+  color: white;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #191919;
+  color: white;
+  font-family: helvetica;
+  max-width: 100%;
+}
+
+li {
+  float: left;
+  margin: 20px;
+}
+
+.li2 {
+  float: right;
+  margin: 20px;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  margin: 0px;
+  background-color: #191919;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  background-color: white;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  max-width: 250px;
+  padding: 10px;
+}
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 30px */
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 90px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 20px */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .img {
+    position: relative;
+    float: center;
+    width: 100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+

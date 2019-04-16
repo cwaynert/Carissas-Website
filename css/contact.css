@@ -1,0 +1,169 @@
+body {
+  background-color: #191919;
+}
+
+h6 {
+  color: white;
+  font-family: helvetica;
+  font-size: 7px;
+  margin-top: 900px;
+  padding: 10px;
+  height: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  background-color: firebrick;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #191919;
+  color: white;
+  font-family: helvetica;
+  max-width: 100%;
+}
+
+li {
+  float: left;
+  margin: 20px;
+}
+
+.li2 {
+  float: right;
+  margin: 20px;
+}
+
+h2 {
+  background-color: white;
+  color: black;
+  font-family: Helvetica;
+  font-variant: small-caps;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+  padding: 0px;
+}
+
+h3 {
+  color: white;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  margin: 0px;
+  background-color: #191919;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
+}
+
+#logo {
+  padding: 10px;
+  margin: 10px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+ /* Full width */
+  background-color: #a0a0a0;
+  color: black;
+  font-family: helvetica;
+  font-size: 15px;
+  padding: 12px;
+ /* Some padding */
+  border: 1px solid #ccc;
+ /* Gray border */
+  border-radius: 4px;
+ /* Rounded borders */
+  box-sizing: border-box;
+ /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+ /* Add a top margin */
+  margin-bottom: 16px;
+ /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #f50c21;
+  color: white;
+  max-width: 100%;
+  font-family: helvetica;
+  font-size: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*contact form*/
+.container {
+  border-radius: 5px;
+  max-width: 100%;
+  background-color: #282828;
+  color: white;
+  font-family: helvetica;
+  padding: 20px;
+  margin-right: 300px;
+  margin-bottom: 300px;
+  margin-left: 300px;
+  margin-top: 60px;
+}
+
+h1 {
+  font-family: helvetica;
+  font-size: 60px;
+  text-align: center;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 30px */
+@media screen and (min-width: 601px) {
+  .container {
+    font-size: 30px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 20px */
+@media screen and (max-width: 600px) {
+  .container {
+    font-size: 20px;
+    float: left;
+  }
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 30px */
+@  media screen and (min-width: 601px) {
+    input{
+    font-size: 30px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 20px */
+@media screen and (max-width: 600px) {
+  input {
+    font-size: 20px;
+    float: left;
+  }
+
+

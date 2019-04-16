@@ -1,0 +1,166 @@
+h6 {
+  color: white;
+  font-family: helvetica;
+  font-size: 7px;
+  margin-top: 900px;
+  padding: 10px;
+  height: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  background-color: firebrick;
+}
+
+body {
+  background-color: #191919;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #191919;
+  color: white;
+  font-family: helvetica;
+  max-width: 100%;
+}
+
+h2 {
+  background-color: white;
+  color: black;
+  font-family: Helvetica;
+  font-variant: small-caps;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+  padding: 0px;
+}
+
+h3 {
+  color: white;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+li {
+  float: left;
+  margin: 20px;
+}
+
+.li2 {
+  float: right;
+  margin: 20px;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  margin: 0px;
+  background-color: #191919;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #fc0f29;
+}
+
+h1 {
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  padding: 50px;
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+  margin: 100px;
+  position: absolute;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 30px */
+@media screen and (min-width: 601px) {
+  .header {
+    font-size: 25px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 5px */
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 5px;
+  }
+}
+
+.square {
+  background-color: black;
+  height: 685px;
+  width: 1216px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 100px;
+  margin-top: 360px;
+  position: absolute;
+  animation-name: colorchange;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  min-width: 365px;
+  min-height: 210px;
+}
+
+@-webkit-keyframes colorchange {
+  from {
+    background-color: black;
+  }
+
+  to {
+    background-color: firebrick;
+  }
+}
+
+/* Standard syntax */
+@keyframes colorchange {
+  from {
+    background-color: black;
+  }
+
+  to {
+    background-color: firebrick;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .square {
+    width: 100%;
+  }
+@media screen and (max-width: 992px) {
+    .square {
+    width: 82%;
+    height:82%;
+  }
+@media screen and (max-width: 768px) {
+    .square {
+    width: 64%;
+    height:64%;
+  } 
+
+
+/*smaller than or equal to 768 px (smartphones)
+larger than 768 px (small devices, tablets)
+larger than 992 px (medium devices)
+larger than 1200px (large devices)*/
+
+
+
+
+
+
